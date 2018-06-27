@@ -49,6 +49,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Core\IDocumento.cs" />
+    <Compile Include="DetalleDocumentoElectronicoSigcomt.cs" />
     <Compile Include="DocumentoElectronicoSigcomt.cs" />
     <Compile Include="DocumentoModel.cs" />
     <Compile Include="DocumentoResponseModel.cs" />
