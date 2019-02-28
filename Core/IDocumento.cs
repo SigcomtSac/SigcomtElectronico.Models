@@ -13,5 +13,6 @@ namespace SigcomtElectronico.Models.Core
         string NroDocumento { get; set; }
         string IdDocumento { get; set; }
         string TipoDocumento { get; set; }
+        string UblVersion { get; set; }
     }
 }

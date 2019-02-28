@@ -37,6 +37,7 @@
       <HintPath>packages\Newtonsoft.Json.12.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -54,6 +55,17 @@
     <Compile Include="GeneratedDocumentResponse.cs" />
     <Compile Include="GuiaRemisionModel.cs" />
     <Compile Include="Openinvoice\Contratos\IDocumentoElectronico.cs" />
+    <Compile Include="Openinvoice\Intercambio\ConsultaConstanciaRequest.cs" />
+    <Compile Include="Openinvoice\Intercambio\ConsultaTicketRequest.cs" />
+    <Compile Include="Openinvoice\Intercambio\DocumentoResponse.cs" />
+    <Compile Include="Openinvoice\Intercambio\EnviarDocumentoRequest.cs" />
+    <Compile Include="Openinvoice\Intercambio\EnviarDocumentoResponse.cs" />
+    <Compile Include="Openinvoice\Intercambio\EnviarResumenResponse.cs" />
+    <Compile Include="Openinvoice\Intercambio\EnvioDocumentoComun.cs" />
+    <Compile Include="Openinvoice\Intercambio\FirmadoRequest.cs" />
+    <Compile Include="Openinvoice\Intercambio\FirmadoResponse.cs" />
+    <Compile Include="Openinvoice\Intercambio\RespuestaComun.cs" />
+    <Compile Include="Openinvoice\Intercambio\RespuestaComunConArchivo.cs" />
     <Compile Include="Openinvoice\Modelos\Compania.cs" />
     <Compile Include="Openinvoice\Modelos\ComunicacionBaja.cs" />
     <Compile Include="Openinvoice\Modelos\Contribuyente.cs" />
