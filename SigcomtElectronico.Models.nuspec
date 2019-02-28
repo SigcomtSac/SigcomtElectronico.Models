@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>SigcomtElectronico.Models</id>
-    <version>0.1.3</version>
+    <version>0.1.5</version>
     <title>SigcomtElectronico Models</title>
     <authors>Miguel Carbajal</authors>
     <owners>Sigcomt</owners>
@@ -12,13 +12,11 @@
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <description>Clases customizadas para el Servicio de Facturación de Sigcomt</description>
     <releaseNotes>- Campos JSON simplificados</releaseNotes>
-    <copyright>Copyright 2018</copyright>
+    <copyright>Copyright 2019</copyright>
     <tags>sigcomt facturacion electronica</tags>
     <dependencies>
       <group targetFramework=".NETFramework4.0">
-        <dependency id="Newtonsoft.Json" version="10.0.3" />
-        <dependency id="RestSharp" version="105.2.3" />
-        <dependency id="OpenInvoicePeru.DataTransfersObjects" version="1.5.2" />
+        <dependency id="Newtonsoft.Json" version="12.0.1" />
       </group>
     </dependencies>
   </metadata>
