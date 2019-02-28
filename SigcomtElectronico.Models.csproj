@@ -53,6 +53,34 @@
     <Compile Include="EnvioResponseModel.cs" />
     <Compile Include="GeneratedDocumentResponse.cs" />
     <Compile Include="GuiaRemisionModel.cs" />
+    <Compile Include="Openinvoice\Contratos\IDocumentoElectronico.cs" />
+    <Compile Include="Openinvoice\Modelos\Compania.cs" />
+    <Compile Include="Openinvoice\Modelos\ComunicacionBaja.cs" />
+    <Compile Include="Openinvoice\Modelos\Contribuyente.cs" />
+    <Compile Include="Openinvoice\Modelos\DatoAdicional.cs" />
+    <Compile Include="Openinvoice\Modelos\DatosGuia.cs" />
+    <Compile Include="Openinvoice\Modelos\DetalleDocumento.cs" />
+    <Compile Include="Openinvoice\Modelos\DetalleGuia.cs" />
+    <Compile Include="Openinvoice\Modelos\Direccion.cs" />
+    <Compile Include="Openinvoice\Modelos\Discrepancia.cs" />
+    <Compile Include="Openinvoice\Modelos\DocumentoBaja.cs" />
+    <Compile Include="Openinvoice\Modelos\DocumentoElectronico.cs" />
+    <Compile Include="Openinvoice\Modelos\DocumentoPercepcion.cs" />
+    <Compile Include="Openinvoice\Modelos\DocumentoRelacionado.cs" />
+    <Compile Include="Openinvoice\Modelos\DocumentoResumen.cs" />
+    <Compile Include="Openinvoice\Modelos\DocumentoResumenDetalle.cs" />
+    <Compile Include="Openinvoice\Modelos\DocumentoRetencion.cs" />
+    <Compile Include="Openinvoice\Modelos\DocumentoSunatBase.cs" />
+    <Compile Include="Openinvoice\Modelos\GrupoResumen.cs" />
+    <Compile Include="Openinvoice\Modelos\GrupoResumenNuevo.cs" />
+    <Compile Include="Openinvoice\Modelos\GuiaRemision.cs" />
+    <Compile Include="Openinvoice\Modelos\ItemPercepcion.cs" />
+    <Compile Include="Openinvoice\Modelos\ItemRetencion.cs" />
+    <Compile Include="Openinvoice\Modelos\ItemSunatBase.cs" />
+    <Compile Include="Openinvoice\Modelos\Leyenda.cs" />
+    <Compile Include="Openinvoice\Modelos\Negocio.cs" />
+    <Compile Include="Openinvoice\Modelos\ResumenDiario.cs" />
+    <Compile Include="Openinvoice\Modelos\ResumenDiarioNuevo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -60,12 +88,6 @@
     <None Include="SigcomtElectronico.Models.nuspec">
       <SubType>Designer</SubType>
     </None>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Open Invoice Peru UBL 2.1-Fuentes\OpenInvoicePeru.Comun.Dto\OpenInvoicePeru.Comun.Dto.csproj">
-      <Project>{a265a65a-c2a9-4f9e-b272-bed5ed04df98}</Project>
-      <Name>OpenInvoicePeru.Comun.Dto</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
