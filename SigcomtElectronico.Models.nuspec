@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>SigcomtElectronico.Models</id>
-    <version>0.1.6</version>
+    <version>0.1.8</version>
     <title>SigcomtElectronico Models</title>
     <authors>Miguel Carbajal</authors>
     <owners>Sigcomt</owners>

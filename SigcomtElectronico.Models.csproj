@@ -94,6 +94,7 @@
     <Compile Include="Openinvoice\Modelos\ResumenDiario.cs" />
     <Compile Include="Openinvoice\Modelos\ResumenDiarioNuevo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UbigeoModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
